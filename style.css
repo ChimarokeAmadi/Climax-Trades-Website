@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Smokum&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:ital,wght@1,900&family=Smokum&display=swap');
+
+:root {
+    --primary-color: black;
+    --secondary-color: white;
+    --tetiary-color: aquamarine;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.6;
+    font-family: 'lato';
+    color: #fff;
+}
+ 
+.logo {
+    font-family: 'lato';
+    color: white;
+    font-size: 30px;
+}
+
+.container {
+    justify-content: space-between;
+    margin: 0px auto;
+    max-width: 1500px;
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+/* nav bar */
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.navbar li {
+    list-style-type: none;
+    padding-top: 7px;
+}
+
+/* showcase */
+
+.showcase .container {
+    gap: 150px;
+}
+
+.showcase-text {
+    align-self: center;
+}
+
+.showcase-text h1 {
+    font-size: 50px;
+}
+
+.showcase-text p {
+    font-size: 20px;
+}
+
+.showcase-image {
+    position: relative;
+    top: 60px;
+    width: 500px;
+}
